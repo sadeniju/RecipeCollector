@@ -4,15 +4,15 @@
 exe
 C#
 .cs
-D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\
+C:\Users\Niu\Documents\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\
 RecipeCollector
 none
 false
 DEBUG;TRACE
-D:\GitProjects\RecipeCollector\RecipeCollector\App.xaml
+C:\Users\Niu\Documents\GitHub\RecipeCollector\RecipeCollector\App.xaml
 1-1711142684
 
-101748768618
+13440687941
 12-1381780322
 View\MainWindow.xaml;
 

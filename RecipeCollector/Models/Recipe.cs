@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel;
+using System.Collections.ObjectModel;
 
 namespace RecipeCollector.Models {
     public enum Category{
@@ -41,7 +42,7 @@ namespace RecipeCollector.Models {
             set { name = value; }
         }
        
-        public List<Ingredient> Ingredients {
+        public ObservableCollection<Ingredient> Ingredients {
             get;
             set;
         }
@@ -78,14 +79,14 @@ namespace RecipeCollector.Models {
         #region Construction 
 
         public Recipe(string name, int penguinRating, int onionRating) {
-            Ingredients = new List<Ingredient>(); 
+            Ingredients = new ObservableCollection<Ingredient>(); 
         }
 
-        public Recipe() {
+        public Recipe(): this("",0,0) {
             // TODO: Complete member initialization
         }
 
-        public Recipe(string name) {
+        public Recipe(string name): this(name,0,0) {
             // TODO: Complete member initialization
             this.Name = name;
         }
@@ -93,8 +94,7 @@ namespace RecipeCollector.Models {
         #endregion
 
         public override String ToString() {
-            Console.WriteLine(Name);
-            return "Recipe: "+Name;
+            return Name;
         }
     }
 }

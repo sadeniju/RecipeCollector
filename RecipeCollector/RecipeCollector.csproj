@@ -69,8 +69,11 @@
     <Compile Include="Models\IngredientType.cs" />
     <Compile Include="Models\Ingredient.cs" />
     <Compile Include="Models\Recipe.cs" />
+    <Compile Include="Models\RecipeCollection.cs" />
+    <Compile Include="Models\RecipeManager.cs" />
     <Compile Include="Models\Unit.cs" />
-    <Compile Include="ViewModels\RecipeBookViewModel.cs" />
+    <Compile Include="Models\XmlReader.cs" />
+    <Compile Include="Models\XmlWriter.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

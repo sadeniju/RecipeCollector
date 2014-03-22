@@ -1,39 +1,49 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 using RecipeCollector.Models;
-using RecipeCollector.ViewModels;
+using System;
 
-
-namespace RecipeCollector.View
-{
+namespace RecipeCollector.View{
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
-    {
-        
-
-        public MainWindow()
-        {
+    public partial class MainWindow : Window{
+        public MainWindow() {
             InitializeComponent();
-            RecipeBookViewModel book = new RecipeBookViewModel();
+            RecipeManager recipeManager = new RecipeManager();
+
+            Recipe SuperSuppe = new Recipe("Bärlauchsuppe");
+            recipeManager.RecipeCollection.Recipes.Add(SuperSuppe);
+
+            this.DataContext = recipeManager.RecipeCollection;
+        }
+
+        private Random random = new Random();
+
+        private void Button_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e) {
+            // @TODO Click behaviour
+            int i = random.Next(6);
             
-
-            Recipe SuperSuppe = new Recipe("Suppe");
-            book.Recipes.Add(SuperSuppe);
-
-            this.DataContext = book;
+            switch(i) {
+                case 0:
+                    FunnyBlock.Text += "Ouch! ";
+                    break;
+                case 1:
+                    FunnyBlock.Text += "Hit me harder! ";
+                    break;
+                case 2:
+                    FunnyBlock.Text += "Push me. ";
+                    break;
+                case 3:
+                    FunnyBlock.Text += "Push me real good. ";
+                    break;
+                case 4:
+                    FunnyBlock.Text += "Uuuh, that hurt a litte... ";
+                    break;
+                case 5:
+                    FunnyBlock.Text += "Why are you so mean to me? ";
+                    break;
+            }
+            
         }
     }
 }
