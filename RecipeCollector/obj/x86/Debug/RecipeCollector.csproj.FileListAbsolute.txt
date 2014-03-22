@@ -1,0 +1,11 @@
+D:\GitProjects\RecipeCollector\RecipeCollector\bin\Debug\RecipeCollector.exe
+D:\GitProjects\RecipeCollector\RecipeCollector\bin\Debug\RecipeCollector.pdb
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\View\MainWindow.baml
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\View\MainWindow.g.cs
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\App.g.cs
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector_MarkupCompile.cache
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.g.resources
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.Properties.Resources.resources
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.exe
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.pdb
+D:\GitProjects\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.csproj.GenerateResource.Cache
