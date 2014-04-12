@@ -4,17 +4,17 @@
 exe
 C#
 .cs
-C:\Users\Niu\Documents\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\
 RecipeCollector
 none
 false
 DEBUG;TRACE
-C:\Users\Niu\Documents\GitHub\RecipeCollector\RecipeCollector\App.xaml
-1-1711142684
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\App.xaml
+21250781926
 
-14-1777940931
+15-925507231
 12-1381780322
-View\MainWindow.xaml;
+View\AddNewRecipeWindow.xaml;View\MainWindow.xaml;
 
 False
 

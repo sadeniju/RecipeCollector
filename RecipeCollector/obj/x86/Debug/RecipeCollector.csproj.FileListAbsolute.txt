@@ -20,3 +20,16 @@ C:\Users\Niu\Documents\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\Reci
 C:\Users\Niu\Documents\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.g.resources
 C:\Users\Niu\Documents\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.Properties.Resources.resources
 C:\Users\Niu\Documents\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.csproj.GenerateResource.Cache
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.exe
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.pdb
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\bin\Debug\RecipeCollector.exe
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\bin\Debug\RecipeCollector.pdb
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\View\MainWindow.baml
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\View\MainWindow.g.cs
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\App.g.cs
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector_MarkupCompile.cache
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.g.resources
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.Properties.Resources.resources
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\RecipeCollector.csproj.GenerateResource.Cache
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\View\AddNewRecipeWindow.baml
+D:\Projects\Programming\GitHub\RecipeCollector\RecipeCollector\obj\x86\Debug\View\AddNewRecipeWindow.g.cs
