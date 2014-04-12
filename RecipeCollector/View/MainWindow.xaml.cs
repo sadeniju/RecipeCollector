@@ -20,9 +20,30 @@ namespace RecipeCollector.View{
         private Random random = new Random();
 
         private void Button_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e) {
-            Window newRecipeWindow = new AddNewRecipeWindow();
-            newRecipeWindow.DataContext = this.DataContext as RecipeCollection;
-            newRecipeWindow.Show();
+            // @TODO Click behaviour
+            int i = random.Next(6);
+            
+            switch(i) {
+                case 0:
+                    FunnyBlock.Text += "Ouch! ";
+                    break;
+                case 1:
+                    FunnyBlock.Text += "Hit me harder! ";
+                    break;
+                case 2:
+                    FunnyBlock.Text += "Push me. ";
+                    break;
+                case 3:
+                    FunnyBlock.Text += "Push me real good. ";
+                    break;
+                case 4:
+                    FunnyBlock.Text += "Uuuh, that hurt a litte... ";
+                    break;
+                case 5:
+                    FunnyBlock.Text += "Why are you so mean to me? ";
+                    break;
+            }
+            
         }
     }
 }
