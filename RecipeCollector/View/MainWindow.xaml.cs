@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using RecipeCollector.Models;
 using System;
+using System.Windows.Controls;
 
 namespace RecipeCollector.View{
     /// <summary>
@@ -10,10 +11,6 @@ namespace RecipeCollector.View{
         public MainWindow() {
             InitializeComponent();
             RecipeManager recipeManager = new RecipeManager();
-
-            Recipe SuperSuppe = new Recipe("Bärlauchsuppe");
-            recipeManager.RecipeCollection.Recipes.Add(SuperSuppe);
-
             this.DataContext = recipeManager.RecipeCollection;
         }
 
@@ -21,8 +18,13 @@ namespace RecipeCollector.View{
 
         private void Button_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e) {
             Window newRecipeWindow = new AddNewRecipeWindow();
+            newRecipeWindow.Owner = this;
             newRecipeWindow.DataContext = this.DataContext as RecipeCollection;
             newRecipeWindow.Show();
+        }
+
+        private void ListView_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e){
+            (this.DataContext as RecipeCollection).SelectedRecipe = (sender as ListView).SelectedItem as Recipe;
         }
     }
 }

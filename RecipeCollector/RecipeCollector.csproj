@@ -72,6 +72,7 @@
     </Compile>
     <Compile Include="Models\IngredientType.cs" />
     <Compile Include="Models\Ingredient.cs" />
+    <Compile Include="Models\NotifyableClass.cs" />
     <Compile Include="Models\Recipe.cs" />
     <Compile Include="Models\RecipeCollection.cs" />
     <Compile Include="Models\RecipeManager.cs" />

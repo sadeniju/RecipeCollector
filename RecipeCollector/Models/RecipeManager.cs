@@ -15,7 +15,6 @@ namespace RecipeCollector.Models {
 
         public void Load() {
             RecipeCollection = new RecipeCollection();
-            RecipeCollection.Recipes.Add(new Recipe("Kürbispürree")); // TEST
         }
 
         public void Save() {

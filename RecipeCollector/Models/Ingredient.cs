@@ -5,35 +5,21 @@ using System.Text;
 
 namespace RecipeCollector.Models{
     public class Ingredient{
-        private string name;
-        private float amount;
-
         #region Properties
-        public string Name {
-            get { return name; }
-            set { name = value; }
-        }
-
+        public string Name { get; set; }
         public Unit Unit { get; set; }
-
-        public IngredientType IngredientType { get; set; }
-
-        public float Amount {
-            get { return amount; }
-            set { amount = value; }
-        }
+        public string Amount{get;set;}
         #endregion
 
         #region Construction
-        public Ingredient(string name, float amount, IngredientType ingredientType, Unit unit):this(name, ingredientType, unit){
+        public Ingredient(string name, string amount){
+            Name = name;
             Amount = amount;
         }
-
-        public Ingredient(string name, IngredientType ingredientType, Unit unit) {
-            Name = name;
-            IngredientType = ingredientType;
-            Unit = unit;
-        }
         #endregion
+
+        public override string ToString(){
+            return Amount + " " + Name;
+        }
     }
 }

@@ -23,8 +23,8 @@ namespace RecipeCollector.View
             InitializeComponent();
         }
 
-        private void Button_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
+        private void Button_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e){
+            // TODO Create new Recipe and save XML
             this.Close();
         }
     }
